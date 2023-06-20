@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-secondary);
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+}
